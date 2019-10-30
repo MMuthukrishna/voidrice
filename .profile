@@ -3,6 +3,9 @@
 
 # Adds `~/.local/bin/` and all subdirectories to $PATH
 export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
+export GOPATH="$HOME/go"
+export SNAPPATH="/var/lib/snapd/snap"
+export PATH="$PATH:$GOPATH/bin:$SNAPPATH/bin"
 export EDITOR="nvim"
 export TERMINAL="st"
 export BROWSER="firefox"
