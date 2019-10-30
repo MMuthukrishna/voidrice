@@ -1,0 +1,15 @@
+*
+!.gitignore
+!.calcurse/
+!.config/
+!.icons.
+!.bash_profile
+!.inputrc
+!.profile
+!.tmux_conf
+!.vim
+!.vimrc
+!.xinitrc
+!.xprofile
+!.zprofile
+!.Xresources
